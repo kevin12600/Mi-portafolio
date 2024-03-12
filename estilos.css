@@ -1,0 +1,50 @@
+:root {
+    --color-relleno: rgb(172, 172, 239);
+    
+  }
+
+body{
+  
+    font-family: Lobster;
+    background-image: url(./imagenes/fondo2.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   --color: yellow;
+
+    font-size: 20px;
+}
+.imagen-diseño{
+
+    border-color: var(--color);
+    border-width:10px;
+    border-style:solid;
+    
+    width: 200px;
+    height: 200px;
+}
+#experience{
+    font-family: cursive, monospace;
+
+}
+#contacto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#relleno{
+    border-color: var(--color-relleno);
+    border-width:8px;
+    border-style:solid;
+    background-color: rgba(252, 252, 13, 0.947);
+    
+}
+#padding{
+
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(13, 252, 33, 0.947);
+    border-width:5px;
+    border-style:double;
+}
+#padding-info{
+    background-color: var(--color-relleno);
+}

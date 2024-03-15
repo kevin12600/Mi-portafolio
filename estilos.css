@@ -6,11 +6,11 @@
 body{
   
     font-family: Lobster;
-    background-image: url(./imagenes/fondo2.jpg);
+    background: linear-gradient(white,rgb(197, 197, 197));
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
-   --color: yellow;
+   --color: white;
 
     font-size: 20px;
 }
@@ -18,10 +18,8 @@ body{
 
     border-color: var(--color);
     border-width:10px;
-    border-style:solid;
-    
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
 }
 #experience{
     font-family: cursive, monospace;
@@ -48,3 +46,47 @@ body{
 #padding-info{
     background-color: var(--color-relleno);
 }
+.nav{
+    
+    background: white;
+    width: 550px;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 22px;
+    
+}
+nav > a {
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+    padding:8px 16px;
+    border-radius: 22px;
+}
+nav > a:hover{
+    transition: 0.25s;
+    background: rgb(18, 18, 19);
+    color: white;
+}
+.contenedor-encabezado {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 25px; /* Espacio superior para separar el nav del borde superior de la ventana */
+}
+.contenedor-imagen {
+    display: flex;
+    justify-content: flex-end; /* Centra los elementos horizontalmente */
+    margin-top: 25px;
+    margin-right: 40px;
+    justify-content: space-between;
+   filter:  drop-shadow(0 0 15px black)
+   
+}
+.contenedor-parrafo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinea verticalmente los elementos */
+    margin-left: 40px;
+    }
+      
